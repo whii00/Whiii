@@ -3,188 +3,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dawhina Shanmuganathan | HR Operations, Recruitment & Compliance Support</title>
-  <meta name="description" content="Portfolio of Dawhina Shanmuganathan: HR graduate (CGPA 3.83), CIMB compliance trainee, national-level karate athlete." />
+  <title>Dawhina Shanmuganathan | HR Associate Portfolio</title>
+  <meta name="description" content="HR Operations, Recruitment & IT Support. HRM graduate (CGPA 3.83), CIMB Bank trainee, national-level karate athlete." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="navbar" aria-label="Main">
+  <nav class="navbar">
     <div class="container nav-inner">
-      <a href="#top" class="logo">DS</a>
-      <button class="menu-btn" aria-expanded="false" aria-controls="navlist">Menu</button>
-      <ul class="nav-links" id="navlist">
+      <a href="#home" class="logo">dawhina<span>.</span></a>
+      <button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#karate">Karate</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#beyond">Beyond Work</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <header class="hero" id="top">
-    <div class="container hero-grid">
+  <header id="home" class="hero">
+    <div class="container hero-inner">
       <div class="hero-text">
-        <p class="hero-role">Human Resources Associate: HR Operations, Recruitment & IT Support</p>
-        <h1>Dawhina<br />Shanmuganathan</h1>
-        <p class="hero-sub">HR graduate with Merit Distinction (CGPA 3.83), now working inside a regulated bank. Disciplined by karate, precise with records, and good with people.</p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-pink">Get in touch</a>
-          <a href="Revised_resume_Dawhina_new.pdf" class="btn btn-outline" download>Download CV</a>
+        <p class="tag">HR Operations &bull; Recruitment &bull; IT Support</p>
+        <h1>Dawhina <em>Shanmuganathan</em></h1>
+        <p class="lead">HR graduate with a Merit Distinction, working in a regulated banking environment. Detail-obsessed, compliance-minded and unapologetically driven.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="#experience" class="btn ghost">See My Work</a>
         </div>
       </div>
-      <div class="photo-frame">
-        <img src="photo.jpg" alt="Portrait of Dawhina Shanmuganathan" onerror="this.parentElement.classList.add('no-photo'); this.remove();" />
-        <span class="photo-fallback" aria-hidden="true">DS</span>
+      <div class="photo-wrap">
+        <!-- Replace photo.jpg with your own picture (put it in the same folder) -->
+        <img src="photo.jpg" alt="Dawhina Shanmuganathan" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'photo-fallback',textContent:'DS'}))" />
       </div>
     </div>
-    <ul class="stat-strip container" aria-label="Highlights">
-      <li><strong>3.83</strong> CGPA, Dean's List</li>
-      <li><strong>15%</strong> operational cost reduction supported</li>
-      <li><strong>3</strong> languages: English, Malay, Tamil</li>
-      <li><strong>National</strong> level karate athlete</li>
-    </ul>
   </header>
 
-  <main>
-    <section id="about" class="section">
-      <div class="container two-col">
-        <h2>About me</h2>
-        <div class="prose">
-          <p>I graduated with a Bachelor's degree in Human Resource Management (Merit Distinction) from Tunku Abdul Rahman University of Management and Technology (TAR UMT), with a strong grounding in HR practices and performance management.</p>
-          <p>My recent work at CIMB Bank sits in Group Legal & Compliance, on AML remediation. That means working carefully, following regulation, and aligning with stakeholders and the IT department. I have also coordinated recruitment end to end and supported HR operations remotely for a UK team.</p>
-          <p>Before that: an HR internship in logistics, plus part-time roles in real estate and digital marketing. Outside work, I am a certified karate coach, and that discipline shows up in everything I do.</p>
+  <section class="stats">
+    <div class="container stats-grid">
+      <div><strong>3.83</strong><span>CGPA</span></div>
+      <div><strong>Dean's</strong><span>List</span></div>
+      <div><strong>3</strong><span>Languages</span></div>
+      <div><strong>National</strong><span>Karate Athlete</span></div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="about" class="section reveal">
+      <h2>About Me</h2>
+      <p>I'm a Bachelor's graduate in Human Resource Management (Merit Distinction) from TAR UMT, currently in Talent Acquisition at CIMB Bank within GC-Legal &amp; Compliance AMLT Remediation. I have a strong grounding in HR practices and performance management, plus hands-on experience coordinating recruitment end to end in a regulated setting where compliance, governance and stakeholder alignment matter.</p>
+      <p>I've also gained international exposure as a Remote HR Trainee (UK), working with HR operations, employee records and workforce coordination, along with an HR internship in logistics and part-time roles in real estate and digital marketing.</p>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="job">
+          <span class="date">Jun 2026 &ndash; Jul 2026</span>
+          <h3>Trainee, Professional Training and Education for Growing Entrepreneurs (CIMB Programme)</h3>
+          <p class="company">CIMB Bank Berhad &bull; Kuala Lumpur</p>
+          <ul>
+            <li>Screened customer records to identify potential AML/CFT red flags and escalated high-risk cases per Group Compliance procedures.</li>
+            <li>Supported AML remediation by reviewing profiles, documentation and risk indicators against BNM regulations and internal policies.</li>
+            <li>Performed Customer Due Diligence (CDD) and KYC verification to keep customer information complete, accurate and current.</li>
+            <li>Led large-scale data cleansing and backlog remediation, resolving record discrepancies and improving data integrity.</li>
+            <li>Used Card Link and Card Management System (CMS) to validate, review and update customer and card information.</li>
+            <li>Issued customer outreach letters for incomplete or inconsistent documentation, ensuring timely follow-up.</li>
+            <li>Maintained remediation tracking and case records, meeting SLAs and regulatory deadlines.</li>
+            <li>Managed internal staff operational systems, maintaining accurate employee records and workflows.</li>
+            <li>Conducted document verification and QA reviews to meet regulatory, audit and governance standards.</li>
+          </ul>
+        </article>
+        <article class="job">
+          <span class="date">Oct 2025 &ndash; Feb 2026</span>
+          <h3>Human Resources Intern</h3>
+          <p class="company">SILO (M) Sdn. Bhd. &bull; Kuala Lumpur</p>
+          <ul>
+            <li>Took part in vendor negotiations and operational coordination that contributed to roughly a 15% reduction in operational costs.</li>
+            <li>Supported sales outreach and vendor engagement, strengthening ties with suppliers and logistics partners.</li>
+            <li>Streamlined HR admin processes while keeping employee records accurate and policy-compliant.</li>
+            <li>Coordinated end-to-end talent acquisition and onboarding for a smooth candidate experience.</li>
+            <li>Supported warehouse and inventory operations: stock monitoring, receiving, dispatching and reconciliation.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Professional</h3>
+          <div class="chips"><span>Data Entry</span><span>Documentation</span><span>Report Writing</span><span>MS Word</span><span>Excel</span><span>SQL</span><span>HTML</span><span>Canva</span><span>QuickBooks</span><span>Zoom</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Systems &amp; Tools</h3>
+          <div class="chips"><span>Copilot</span><span>Card Link</span><span>Card Management System</span><span>AML Screening &amp; Monitoring</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <div class="chips"><span>Stakeholder Management</span><span>Analytical Thinking</span><span>Problem Resolution</span><span>Innovative</span><span>Proactive</span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="chips"><span>English</span><span>Malay</span><span>Tamil</span></div>
+          <p class="note">Fluent in all three</p>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="section alt">
-      <div class="container">
-        <h2>Experience</h2>
-        <ol class="timeline">
-          <li class="job">
-            <div class="job-head">
-              <h3>Trainee, PROTÉGÉ (Professional Training and Education for Growing Entrepreneurs) Programme</h3>
-              <p class="meta">CIMB Bank Berhad · Kuala Lumpur · Jun 2026 to Jul 2026</p>
-            </div>
-            <p class="job-intro">Group Legal & Compliance, AML remediation.</p>
-            <ul>
-              <li>Screened customer records for potential AML/CFT red flags and escalated high-risk cases under Group Compliance procedures.</li>
-              <li>Reviewed customer profiles, documents and risk indicators to meet Bank Negara Malaysia (BNM) regulations and internal policy.</li>
-              <li>Performed Customer Due Diligence (CDD) and Know Your Customer (KYC) checks so records were complete, accurate and current.</li>
-              <li>Ran large-scale data cleansing and backlog remediation, resolving record discrepancies and improving data integrity.</li>
-              <li>Used the Card Link system, Card Management System (CMS) and internal banking systems to validate, review and update customer information.</li>
-              <li>Issued and coordinated outreach letters for incomplete, outdated or inconsistent documentation.</li>
-              <li>Tracked remediation cases and records to meet service level agreements (SLAs) and regulatory deadlines.</li>
-              <li>Maintained internal staff operational management systems: employee records, operational data and workflows.</li>
-              <li>Verified documents and ran quality assurance reviews against regulatory, audit and governance standards.</li>
-            </ul>
-          </li>
-          <li class="job">
-            <div class="job-head">
-              <h3>Human Resources Intern</h3>
-              <p class="meta">SILO (M) Sdn. Bhd. · Kuala Lumpur · Oct 2025 to Feb 2026</p>
-            </div>
-            <ul>
-              <li>Took part in vendor negotiations and operational coordination that supported roughly a 15% cut in operational costs.</li>
-              <li>Coordinated talent acquisition and onboarding from start to finish for a smooth candidate and employee experience.</li>
-              <li>Streamlined HR admin while keeping employee records accurate and policy-compliant.</li>
-              <li>Contributed to sales outreach and vendor engagement with suppliers and logistics partners.</li>
-              <li>Supported warehouse and inventory work: stock monitoring, receiving, dispatching and reconciliation.</li>
-            </ul>
-          </li>
-          <li class="job">
-            <div class="job-head">
-              <h3>Remote HR Trainee (UK)</h3>
-              <p class="meta">International experience</p>
-            </div>
-            <p class="job-intro">Exposure to HR operations, employee records and workforce coordination.</p>
-          </li>
-        </ol>
+    <section id="education" class="section reveal">
+      <h2>Education</h2>
+      <div class="timeline">
+        <article class="job">
+          <span class="date">Jul 2024 &ndash; Jun 2026</span>
+          <h3>Bachelor's in Human Resource Management (Merit Distinction)</h3>
+          <p class="company">Tunku Abdul Rahman University of Management and Technology, Kuala Lumpur</p>
+          <ul><li>CGPA 3.83, Dean's List, Class Representative, Project Manager, President of the English Club.</li></ul>
+        </article>
+        <article class="job">
+          <span class="date">Jul 2022 &ndash; Jul 2024</span>
+          <h3>Diploma in Human Resource Management (Merit Distinction)</h3>
+          <p class="company">Tunku Abdul Rahman University of Management and Technology, Kuala Lumpur</p>
+          <ul><li>CGPA 3.6, Class Representative, Project Manager, LCCI Accounting Certificate, IT Software course certificate.</li></ul>
+        </article>
+        <article class="job">
+          <span class="date">2021</span>
+          <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+          <p class="company">3As, 2Bs, 1C, 1D</p>
+          <ul><li>LCCI Accounting Certificate, BSN National Record project recognition, Merdeka project with UTM, and Tokoh Sukan award. Represented the district (MSSD) in Kabaddi and Athletics.</li></ul>
+        </article>
       </div>
     </section>
 
-    <section id="education" class="section">
-      <div class="container">
-        <h2>Education</h2>
-        <div class="edu-grid">
-          <article class="edu-card featured">
-            <p class="meta">Jul 2024 to Jun 2026</p>
-            <h3>Bachelor's in Human Resource Management</h3>
-            <p>Merit Distinction · TAR UMT, Kuala Lumpur</p>
-            <p><strong>CGPA 3.83</strong> · Dean's List · Class Representative · Project Manager · President of the English Club</p>
-          </article>
-          <article class="edu-card">
-            <p class="meta">Jul 2022 to Jul 2024</p>
-            <h3>Diploma in Human Resource Management</h3>
-            <p>Merit Distinction · TAR UMT, Kuala Lumpur</p>
-            <p>CGPA 3.6 · Class Representative · Project Manager · LCCI Accounting Certificate · IT Software course certificate</p>
-          </article>
-          <article class="edu-card">
-            <p class="meta">2021</p>
-            <h3>Sijil Pelajaran Malaysia (SPM)</h3>
-            <p>3As, 2Bs, 1C, 1D · LCCI Accounting Certificate</p>
-            <p>Tokoh Sukan award · District (MSSD) representative in Kabaddi and Athletics · BSN National Record project · Merdeka project with UTM</p>
-          </article>
-        </div>
+    <section id="beyond" class="section reveal">
+      <h2>Beyond Work</h2>
+      <div class="feature">
+        <h3>National-level Karate Athlete &amp; Certified Coach</h3>
+        <p>Karate taught me discipline, leadership and resilience, the same qualities I bring to every team and deadline. From district sports honours to national-level competition, I know how to train hard, stay calm under pressure and lift others up.</p>
       </div>
     </section>
 
-    <section id="skills" class="section alt">
-      <div class="container">
-        <h2>Skills</h2>
-        <div class="skill-groups">
-          <div class="skill-group">
-            <h3>Systems & software</h3>
-            <ul class="chips">
-              <li>Copilot</li><li>Card Link system</li><li>Card Management System</li><li>AML screening & monitoring</li>
-            </ul>
-          </div>
-          <div class="skill-group">
-            <h3>Professional</h3>
-            <ul class="chips">
-              <li>Data entry</li><li>Documentation</li><li>Report writing</li><li>MS Word</li><li>Excel</li><li>SQL</li><li>HTML</li><li>Canva</li><li>QuickBooks</li><li>Zoom</li>
-            </ul>
-          </div>
-          <div class="skill-group">
-            <h3>People & thinking</h3>
-            <ul class="chips">
-              <li>Stakeholder management</li><li>Analytical thinking</li><li>Problem resolution</li><li>Innovative</li><li>Proactive</li>
-            </ul>
-          </div>
-          <div class="skill-group">
-            <h3>Languages</h3>
-            <ul class="chips">
-              <li>English (fluent)</li><li>Malay (fluent)</li><li>Tamil (fluent)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="karate" class="section">
-      <div class="container two-col">
-        <h2>Beyond the desk</h2>
-        <div class="prose">
-          <p>I am a national-level Malaysian karate athlete and a certified coach. Training taught me discipline, how to lead a team, and how to keep going when things get hard. I bring the same habits to compliance work and people work.</p>
-          <p>Earlier on, I was recognised with the Tokoh Sukan award and represented my district in Kabaddi and Athletics.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2>Let's work together</h2>
-        <p class="contact-lead">Open to HR, recruitment and operations roles. Send me a message and I will reply.</p>
-        <div class="contact-links">
-          <a href="mailto:whi.naazz@gmail.com" class="btn btn-pink">whi.naazz@gmail.com</a>
-          <a href="tel:+60102043521" class="btn btn-outline">010-204 3521</a>
-        </div>
-        <p class="location">Taman Sri Gombak, Batu Caves, Selangor</p>
+    <section id="contact" class="section reveal">
+      <h2>Contact</h2>
+      <p>Open to HR operations, recruitment and IT support opportunities. Let's talk.</p>
+      <div class="contact-links">
+        <a href="mailto:whi.naazz@gmail.com" class="btn">Email Me</a>
+        <a href="https://www.linkedin.com/" class="btn ghost" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </section>
   </main>
